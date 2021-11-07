@@ -1,0 +1,31 @@
+.mobile-menu-icon{
+    width: 16px;
+    height: 16px;
+    color: #000000;
+    float: right;
+    cursor: pointer;
+    background-color: #ffff
+}
+.mobile-menu-icon:hover{
+    background-color: grey;
+}
+.li-css{
+    display: flex;
+    text-decoration: none;
+    color: #616161;
+    width: 100%;
+    line-height:4;
+    padding-left:40%;   
+  /* text-align: center; */
+  /* padding:20px; */
+  /* align-items: center; */
+}
+.Main-Navbar{
+    width: 60%;
+    margin-left: 40%;
+    background-color: #000000;
+    height:100vh;
+}
+.li-css:hover{
+    color:white;
+}

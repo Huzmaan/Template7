@@ -1,38 +1,275 @@
-.App {
+.body{
+  width: 100%;
+ font-family: "Montserrat", sans-serif;;
+  height: 100vh;
+}
+.App-css{
+  float: right;
+  margin-left: 40%;
+}
+.profile-Img{
+  background-image: url(./Images/profile_girl.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height:100vh;
+  position:fixed;
+}
+/* .Main-css{
+  margin-left: 40%;
+  width: 60%;
+  position: absolute;
+  top: 0;
+  padding: 128px 16px;
+} */
+.Main-css{
+  width: 98%;
+  margin: 0 auto;
+}
+.About-css{
+  width: 98%;
+  margin: 0 auto;
+}
+.skills-css{
+  width: 98%;
+  margin: 0 auto;
+}
+.Reputation-css{
+  width: 98%;
+  margin: 0 auto;
+}
+.price-css{
+  width: 98%;
+  margin: 0 auto;
+}
+.contact-css{
+  width: 98%;
+  margin: 0 auto;
+}
+.portfolio-css{
+  width: 98%;
+  margin: 0 auto;
+}
+.footer-css{
+  /* width: 98%; */
+  margin: 0 auto;
+}
+
+.MainHeading-css{
+  font-size: 60px;
+  font-weight: bold;
+}
+.MainDescription-css,.AboutDescription-css{
+    font-weight: 400;
+    width:100%
+}
+.btnMain-css{
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  color: #000000;
+  cursor: pointer;
+  border:none;
+  margin-top:20px;
+}
+.btnMain-css:hover{
+  background-color: #ccc; 
+}
+/* .portfolioHeading-css.AboutHeading-css,.ReputationHeading-css{
+  font-weight: 400;
+  color: grey;
+  margin-left: 30px;
+} */
+h3{
+  font-weight: 400;
+  color: grey;
+}
+.ImgPortfolio-css{
+  display: flex;
+  width: 98%;
+  /* margin: 0 auto; */
+  /* padding: 20px */
+}
+.Imagediv1-css,.Imagediv2-css{
+  width:100%;
+  /* padding-left: 0; */
+  padding-right: 10px
+}
+.Image-css{
+  width: 100%;
+  /* margin-right: 10px; */
+  margin-bottom: 5px;
+}
+/* .Main-css,.portfolio-css,.About-css,.skills-css,.Reputation-css,.price-css,.contact-css,.footer-css{
+  margin-left: 30px;
+} */
+.Skilldiv1{
+  background-color: #f1f1f1;
+}
+.skills1{
+  background-color: #616161;
+  max-width: 95%;
+  color: #fff;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.skills2{
+  background-color: #616161;
+  color: #fff;
+  max-width: 85%;
+  text-align:center
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.skills3{
+  background-color: #616161;
+  color: #fff;
+  max-width: 80%;
+  text-align: center
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.skills-description{
+  letter-spacing: 4px !important;
+  color: #757575;
+  font-size: 20px;
+}
+.skillAgenda-css{
+  background-color: #616161;
+  color: #fff !important;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding:16px;
+  justify-content: space-evenly;
+text-align: center
 }
+.skillText-css{
+  margin :0 16px;
+  padding: 0 16px;
+}
+.skillTextHeading{
+  font-size: 24px;
+}
+.ImageReputation-css{
+  border-radius: 50%;
+  width: 80px
+}
+.text{
+  margin-left: 100px;
+      position: relative;
+      bottom: 100px;
+      font-weight: 700;
+    color: black;
+    font-size: larger
+}
+.text-light{
+  font-weight: 400;
+  color: #ccc;
+  margin-left: 40px;
+}
+.line-text{
+  position: relative;
+  margin-left: 100px;
+  bottom:100px;
+}
+.MainReputation-css{
+  margin-top:-81px;
+  
+}
+.Main-card{
+  display:flex
+}
+.card-title{
+width:24em;
+text-align: center
+}
+.card-css{
+  border: 2px solid #ccc;
+  margin: 0 8px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.card-description{
+  padding: 8px 16px;
+    border-bottom: 1px solid #ddd
+}
+h1{
+  padding: 8px 16px;
+    background: #616161;
+    margin: auto;
+    color: #fff;
+    font-weight: 400;
+} 
+h2{
+  padding: 14px 16px;
+    background:black;
+    margin: auto;
+    color: #fff;
+    font-weight: 400;
+}
+.card{
+  padding:16px;
+}
+.card-btn-css{
+  background-color: #ccc;
+  padding: 16px;
+}
+.btn{
+  width:30%;
+  padding:8px;
+}
+.btn:hover{
+  background-color: #000000;
+  color: #ffff;
+}
+.Icon-css{
+  color: #ccc;
+    width: 10px; 
+    margin-right: 15px;
+font-size: 25px;
+}
+.ImageMap-css{
+  width: 100%;
+}
+.Inp-css{
+ padding: 10px;
+ margin-left: 5px;
+  width: 97%;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+.Submit{
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  color: #000000;
+  cursor: pointer;
+  border:none;
+  margin-top:20px; 
+}
+.Submit:hover{
+background-color: #ccc;
+}
+.MainIcon-css{
+  color: grey;
+    width: 10px; 
+    display: flex;
+    padding-left: 38%;
+font-size: 25px;
 
-.App-link {
-  color: #61dafb;
 }
+.icon-css:hover{
+color: #616166;
+}
+.icon-css{
+  padding-left:8px
+}
+.FooterLink-css{
+  color: grey;
+  text-decoration: none;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
+.footer-css{
+  padding:20px;
+  background-color: #ccc;
+  color: grey;
+  text-align: center;
+  margin-top:20px; 
+}
+/* @media only screen and (min-width: 600px){
+   .portfolio-css{
+     width: 100%;
+   }
+} */
