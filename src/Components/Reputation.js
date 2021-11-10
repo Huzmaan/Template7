@@ -6,7 +6,7 @@ const Reputation = () => {
     return (
         <div className="Reputation-css">
             <h3 className="ReputationHeading-css">My Reputation</h3>
-            
+            <div className="MainReputation1-css">
             <img className="ImageReputation-css"src={Smoke}alt="Smoke"/>
             <p className="text">
             Chandler Bing.
@@ -17,7 +17,7 @@ const Reputation = () => {
             <p className="line-text">
             Jane Doe is just awesome. I am so happy to have met her!
             </p>
-            
+            </div>
             <div className="MainReputation-css">
             <img className="ImageReputation-css"src={bandmember} alt="bandmember" />
             <p className="text">

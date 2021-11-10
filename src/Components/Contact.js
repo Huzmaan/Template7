@@ -16,7 +16,7 @@ const Contact = () => {
             <p className="ContactText-css"><i className="Icon-css"> <BsTelephoneFill/></i>Phone:+00 151515</p>
             <p className="ContactText-css"><i className="Icon-css"> <GrMail/></i>Email:mail@mail.com</p>
              <img className="ImageMap-css" src={map} alt="Map"/>
-   <p>Lets get in touch. Send me a message:</p>
+   <p className="text-foam-css">Lets get in touch. Send me a message:</p>
    <foam className="foam-css">
    <input type="text" className="Inp-css" placeholder="Name"/>
    <input type="email" className="Inp-css" placeholder="Email"/>

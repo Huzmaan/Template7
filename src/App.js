@@ -13,7 +13,7 @@ function App() {
   return (
     <>
      <Profile/>
-    {/* <Navbar/> */}
+    <Navbar/>
     <div className="App-css">
      <Main/>
      <Portfolio/>

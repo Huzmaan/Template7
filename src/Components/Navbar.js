@@ -1,20 +1,22 @@
-import {React, useEffect} from 'react'
+import {React, useState} from 'react'
 import "./Navbar.css";
-import {GiHamburgerMenu} from 'react-icons/gi'
 
 const Navbar = () => {
-    const [mobileIcon,setMobileIcon] =useEffect(false)
+    const [mobileIcon,setMobileIcon] =useState(false)
     return (
         <nav className="Navbar">
-        <div  className= "Main-Navbar">
-    <li> <a href="#" className="li-css" >Home</a></li>
-    <li><a href="#Porfolio" className="li-css">Portfolio</a></li>
+        <div  className= {mobileIcon ? "Nav-link" :"Main-Navbar"}
+        onClick={()=> setMobileIcon(false)}
+        >
+    <li> <a href="#Home" className="li-css" >Home</a></li>
+    <li><a href="#Portfolio" className="li-css">Portfolio</a></li>
     <li><a href="#About" className="li-css">About</a></li>
        <li><a href="#Contact" className="li-css">Contact</a></li>
         </div>
-        <div>
-            <a onclick={() =>setMobileIcon(!mobileIcon)} href="#"><GiHamburgerMenu/></a>
-        </div>
+        <button className="Mobile-menu-icon"
+        onClick={()=>setMobileIcon(!mobileIcon)}>
+        {mobileIcon? (<i className="fa fa-remove"></i>):(<i className="fa fa-bars"></i>)}
+        </button>
         </nav>
         
     )

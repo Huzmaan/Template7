@@ -5,27 +5,25 @@
 }
 .App-css{
   float: right;
-  margin-left: 40%;
+  /* margin-left: 40%; */
+  width:60%
 }
 .profile-Img{
-  background-image: url(./Images/profile_girl.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-image: url(./Images/profile_girl.jpg); */
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
   width: 40%;
   height:100vh;
-  position:fixed;
+  position:fixed; 
 }
-/* .Main-css{
-  margin-left: 40%;
-  width: 60%;
-  position: absolute;
-  top: 0;
-  padding: 128px 16px;
-} */
 .Main-css{
   width: 98%;
-  margin: 0 auto;
+  margin: 100px auto;
+  justify-content: center;
+    display: flex;
+    text-align: center;
+    line-height:2;
 }
 .About-css{
   width: 98%;
@@ -52,7 +50,6 @@
   margin: 0 auto;
 }
 .footer-css{
-  /* width: 98%; */
   margin: 0 auto;
 }
 
@@ -75,36 +72,26 @@
 .btnMain-css:hover{
   background-color: #ccc; 
 }
-/* .portfolioHeading-css.AboutHeading-css,.ReputationHeading-css{
-  font-weight: 400;
-  color: grey;
-  margin-left: 30px;
-} */
 h3{
   font-weight: 400;
   color: grey;
+  margin:  30px 0;
+  font-size:40px
 }
 .ImgPortfolio-css{
   display: flex;
-  width: 98%;
-  /* margin: 0 auto; */
-  /* padding: 20px */
 }
 .Imagediv1-css,.Imagediv2-css{
   width:100%;
-  /* padding-left: 0; */
   padding-right: 10px
 }
 .Image-css{
   width: 100%;
-  /* margin-right: 10px; */
   margin-bottom: 5px;
 }
-/* .Main-css,.portfolio-css,.About-css,.skills-css,.Reputation-css,.price-css,.contact-css,.footer-css{
-  margin-left: 30px;
-} */
 .Skilldiv1{
   background-color: #f1f1f1;
+  margin: 20px 0;
 }
 .skills1{
   background-color: #616161;
@@ -128,6 +115,7 @@ h3{
   letter-spacing: 4px !important;
   color: #757575;
   font-size: 20px;
+  margin: 20px 0 ;
 }
 .skillAgenda-css{
   background-color: #616161;
@@ -151,7 +139,7 @@ text-align: center
 .text{
   margin-left: 100px;
       position: relative;
-      bottom: 100px;
+      bottom: 76px;
       font-weight: 700;
     color: black;
     font-size: larger
@@ -164,11 +152,14 @@ text-align: center
 .line-text{
   position: relative;
   margin-left: 100px;
-  bottom:100px;
+  bottom:75px;
 }
 .MainReputation-css{
-  margin-top:-81px;
+  margin-top:-21px;
   
+}
+.MainReputation1-css{
+  margin-top:35px;
 }
 .Main-card{
   display:flex
@@ -179,7 +170,7 @@ text-align: center
 }
 .card-css{
   border: 2px solid #ccc;
-  margin: 0 8px;
+  /* margin: 0 8px; */
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
 .card-description{
@@ -224,12 +215,17 @@ font-size: 25px;
 .ImageMap-css{
   width: 100%;
 }
+.text-foam-css{
+  margin :revert
+}
 .Inp-css{
- padding: 10px;
+ /* padding: 10px; */
  margin-left: 5px;
-  width: 97%;
-  margin-bottom: 8px;
-  font-size: 15px;
+  width: 98%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  font-size: 17px;
 }
 .Submit{
   padding: 10px 20px;
@@ -243,15 +239,15 @@ font-size: 25px;
 background-color: #ccc;
 }
 .MainIcon-css{
-  color: grey;
+    color: grey;
     width: 10px; 
     display: flex;
     padding-left: 38%;
-font-size: 25px;
+    font-size: 25px;
 
 }
 .icon-css:hover{
-color: #616166;
+    color: #616166;
 }
 .icon-css{
   padding-left:8px
@@ -268,8 +264,3 @@ color: #616166;
   text-align: center;
   margin-top:20px; 
 }
-/* @media only screen and (min-width: 600px){
-   .portfolio-css{
-     width: 100%;
-   }
-} */
