@@ -7,13 +7,9 @@
     text-decoration: none;
     color: #616161;
     width: 100%;
-    /* line-height:5; */
     margin-top:30px;
     font-size: 45px;
     justify-content: center;
-    /* margin: 0;    */
-    /* align-items: center; */
-    /* padding:0px; */
     align-items: center;
     
 }
@@ -26,6 +22,7 @@
     padding-bottom: 20px;
     /* z-index: 2; */
     list-style: none;
+    position: fixed;
 
 }
 .li-css:hover{
@@ -36,14 +33,12 @@
 }
 .Mobile-menu-icon{
     cursor: pointer;
-    /* float: right; */
     display: block;
-    padding: 10px;
+    padding: 7px;
     margin: 10px;
     list-style: none;
-    /* color: #000000; */
     position: absolute;
     top: 0;
     right: 0;
-    /* background-color: #000000; */
+    position: fixed;
 }

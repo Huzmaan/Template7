@@ -12,9 +12,12 @@ import Navbar from "./Components/Navbar";
 function App() {
   return (
     <>
-     <Profile/>
-    <Navbar/>
+    <div className="Main-App-css">
     <div className="App-css">
+     <Profile/>
+     </div>
+    <Navbar/>
+     <div className="App-css1">
      <Main/>
      <Portfolio/>
      <About/>
@@ -23,8 +26,9 @@ function App() {
      <Price/>
      <Contact/>
      <Footer/>
+     </div> 
      </div>
-    </>
+     </>
   );
 }
 

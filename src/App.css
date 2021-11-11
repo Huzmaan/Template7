@@ -3,23 +3,28 @@
  font-family: "Montserrat", sans-serif;;
   height: 100vh;
 }
-.App-css{
+/* .App-css{
   float: right;
-  /* margin-left: 40%; */
   width:60%
+} */
+.Main-App-css{
+  width:100%;
+}
+.App-css{
+  width:40%;
+}
+.App-css1{
+  width:60%;
+  margin-left:40%;  
 }
 .profile-Img{
-  /* background-image: url(./Images/profile_girl.jpg); */
-  /* background-position: center; */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
   width: 40%;
   height:100vh;
   position:fixed; 
 }
 .Main-css{
   width: 98%;
-  margin: 100px auto;
+  margin: 0 auto;
   justify-content: center;
     display: flex;
     text-align: center;
@@ -54,8 +59,11 @@
 }
 
 .MainHeading-css{
-  font-size: 60px;
-  font-weight: bold;
+  font-size: 65px;
+  font-weight: 400;
+}
+.Main{
+  padding:75px;
 }
 .MainDescription-css,.AboutDescription-css{
     font-weight: 400;
@@ -165,13 +173,13 @@ text-align: center
   display:flex
 }
 .card-title{
-width:24em;
+/* width:24em; */
 text-align: center
 }
 .card-css{
   border: 2px solid #ccc;
-  /* margin: 0 8px; */
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  width:50%;
 }
 .card-description{
   padding: 8px 16px;
@@ -201,16 +209,17 @@ h2{
 .btn{
   width:30%;
   padding:8px;
+  cursor: pointer;
 }
 .btn:hover{
   background-color: #000000;
   color: #ffff;
 }
 .Icon-css{
-  color: #ccc;
-    width: 10px; 
-    margin-right: 15px;
-font-size: 25px;
+ color: #ccc;
+ width: 10px; 
+ margin-right: 15px;
+ font-size: 25px;
 }
 .ImageMap-css{
   width: 100%;
@@ -219,7 +228,6 @@ font-size: 25px;
   margin :revert
 }
 .Inp-css{
- /* padding: 10px; */
  margin-left: 5px;
   width: 98%;
   padding-top: 15px;
@@ -263,4 +271,43 @@ background-color: #ccc;
   color: grey;
   text-align: center;
   margin-top:20px; 
+}
+.profile-Responsive{
+  display:none;
+}
+@media only screen and (max-width:600px){
+  .Main-card{
+    display: block;
+  } 
+  .card-css{
+    width:100%;
+    margin-bottom:10px
+  }
+  .ImgPortfolio-css{
+    display:block;
+  }
+  .skillAgenda-css{
+    display:block;
+  }
+  .skillText-css{
+    margin-bottom:10px;
+  }
+}
+@media only screen and (max-width:990px){
+  .Main{
+    width:100%;
+    align-items:center;
+  }
+  .App-css1{
+    width: 100%;
+    margin: 0;
+  }
+  .profile-Responsive{
+    display:flex;
+    width:50%;
+    align-items:center;
+  }
+  .profile-Img{
+    display:none;
+  }
 }

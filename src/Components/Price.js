@@ -5,7 +5,7 @@ const Price = () => {
         <div className="price-css">
             <h3>My Price</h3>
             <div className="Main-card">
-            <card className="card-css">   
+            <div className="card-css">   
   <div className="card-title">
     <h1>Basic</h1>
     <p className="card-description">Web Design</p>
@@ -21,8 +21,8 @@ const Price = () => {
     <button className="btn" variant="primary">Sign up</button>
   </div>
   </div>
-</card>
-<card className="card-css">
+</div>
+<div className="card-css">
     <div className="card-title">
         <h2>Pro</h2>
         <p className="card-description">Web Design</p>
@@ -38,7 +38,7 @@ const Price = () => {
 <button className="btn" variant="primary">Sign up</button>
     </div>
     </div>
-</card>
+</div>
 </div>
         </div>
     )

@@ -17,13 +17,13 @@ const Contact = () => {
             <p className="ContactText-css"><i className="Icon-css"> <GrMail/></i>Email:mail@mail.com</p>
              <img className="ImageMap-css" src={map} alt="Map"/>
    <p className="text-foam-css">Lets get in touch. Send me a message:</p>
-   <foam className="foam-css">
+   <form className="foam-css">
    <input type="text" className="Inp-css" placeholder="Name"/>
    <input type="email" className="Inp-css" placeholder="Email"/>
    <input type="text" className="Inp-css" placeholder="Subject"/>
    <input type="text" className="Inp-css" placeholder="Message"/>
    <button className="Submit"> <FaPaperPlane/>SEND MESSAGE</button> 
-   </foam>
+   </form>
         </div>
     )
 }
