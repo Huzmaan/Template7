@@ -14,7 +14,7 @@
   width:40%;
 }
 .App-css1{
-  width:60%;
+  width:58%;
   margin-left:40%;  
 }
 .profile-Img{
@@ -23,39 +23,39 @@
   position:fixed; 
 }
 .Main-css{
-  width: 98%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0 10px;
   justify-content: center;
     display: flex;
     text-align: center;
-    line-height:2;
+    line-height:1;
 }
 .About-css{
-  width: 98%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0 10px;
 }
 .skills-css{
-  width: 98%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0 10px;
 }
 .Reputation-css{
-  width: 98%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0 10px;
 }
 .price-css{
-  width: 98%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0 10px;
 }
 .contact-css{
-  width: 98%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0 10px;
 }
 .portfolio-css{
-  width: 98%;
-  margin: 0 auto;
+  width: 100%;
+  margin :0 10px;
 }
 .footer-css{
-  margin: 0 auto;
+  /* margin: 0 20px; */
 }
 
 .MainHeading-css{
@@ -250,7 +250,7 @@ background-color: #ccc;
     color: grey;
     width: 10px; 
     display: flex;
-    padding-left: 38%;
+    /* padding-left: 38%; */
     font-size: 25px;
 
 }
@@ -267,13 +267,33 @@ background-color: #ccc;
 }
 .footer-css{
   padding:20px;
-  background-color: #ccc;
+  background-color: #f1f1f1;
   color: grey;
   text-align: center;
   margin-top:20px; 
+  width:98.2%;
 }
 .profile-Responsive{
   display:none;
+}
+@media only screen and (max-width:990px){
+  .Main{
+    width:100%;
+    align-items:center;
+  }
+  .App-css1{
+    width: 100%;
+    margin: 0;
+  }
+  .profile-Responsive{
+    display:flex;
+    width:70%;
+    align-items:center;
+    margin-left:15%;
+  }
+  .profile-Img{
+    display:none;
+  }
 }
 @media only screen and (max-width:600px){
   .Main-card{
@@ -290,24 +310,13 @@ background-color: #ccc;
     display:block;
   }
   .skillText-css{
-    margin-bottom:10px;
-  }
-}
-@media only screen and (max-width:990px){
-  .Main{
-    width:100%;
-    align-items:center;
-  }
-  .App-css1{
-    width: 100%;
-    margin: 0;
+    margin-bottom:30px;
   }
   .profile-Responsive{
+    max-width:100%;
     display:flex;
-    width:50%;
-    align-items:center;
+    /* margin:0; */
+
   }
-  .profile-Img{
-    display:none;
-  }
+
 }

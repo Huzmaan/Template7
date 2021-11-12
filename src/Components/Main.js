@@ -8,7 +8,9 @@ const Main = () => {
             <div className="Main">
             <p className="MainHeading-css">Jane Doe</p>
             <p className="MainDescription-css">Photographer and Web Designer</p>
+            <div className="Main-profile-Responsive">
              <img src={profile} alt="Profile"  className="profile-Responsive"/>
+            </div>
             <button className="btnMain-css"><FaDownload/> Download Resume</button>
         </div>
     </div>
