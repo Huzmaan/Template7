@@ -3,10 +3,6 @@
  font-family: "Montserrat", sans-serif;;
   height: 100vh;
 }
-/* .App-css{
-  float: right;
-  width:60%
-} */
 .Main-App-css{
   width:100%;
 }
@@ -173,7 +169,6 @@ text-align: center
   display:flex
 }
 .card-title{
-/* width:24em; */
 text-align: center
 }
 .card-css{
@@ -248,10 +243,9 @@ background-color: #ccc;
 }
 .MainIcon-css{
     color: grey;
-    width: 10px; 
     display: flex;
-    /* padding-left: 38%; */
     font-size: 25px;
+    justify-content: center;
 
 }
 .icon-css:hover{
@@ -271,7 +265,7 @@ background-color: #ccc;
   color: grey;
   text-align: center;
   margin-top:20px; 
-  width:98.2%;
+  width:98.7%;
 }
 .profile-Responsive{
   display:none;
@@ -315,7 +309,6 @@ background-color: #ccc;
   .profile-Responsive{
     max-width:100%;
     display:flex;
-    /* margin:0; */
 
   }
 
