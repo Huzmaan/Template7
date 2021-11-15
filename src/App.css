@@ -50,9 +50,7 @@
   width: 100%;
   margin :0 10px;
 }
-.footer-css{
-  /* margin: 0 20px; */
-}
+
 
 .MainHeading-css{
   font-size: 65px;
@@ -281,9 +279,9 @@ background-color: #ccc;
   }
   .profile-Responsive{
     display:flex;
-    width:70%;
+    width:100%;
     align-items:center;
-    margin-left:15%;
+    /* margin-left:15%; */
   }
   .profile-Img{
     display:none;
@@ -307,8 +305,9 @@ background-color: #ccc;
     margin-bottom:30px;
   }
   .profile-Responsive{
-    max-width:100%;
+    /* max-width:100%; */
     display:flex;
+    width:100%;
 
   }
 

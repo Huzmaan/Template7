@@ -7,10 +7,6 @@ const Navbar = () => {
     const [mobileIcon,setMobileIcon] =useState(false)
     return (
         <nav className="Navbar">
-        <button className="Mobile-menu-icon"
-        onClick={()=>setMobileIcon(!mobileIcon)}>
-        {mobileIcon? (<i><FaTimes/></i>):(<i ><FaBars/></i>)}
-        </button>
         <div  className= {mobileIcon ? "Nav-link" :"Main-Navbar"}
         onClick={()=> setMobileIcon(false)}
         >
@@ -19,6 +15,10 @@ const Navbar = () => {
     <li><a href="#About" className="li-css">About</a></li>
        <li><a href="#Contact" className="li-css">Contact</a></li>
         </div>
+        <button className="Mobile-menu-icon"
+        onClick={()=>setMobileIcon(!mobileIcon)}>
+        {mobileIcon? (<i><FaTimes/></i>):(<i ><FaBars/></i>)}
+        </button>
         </nav>
         
     )
